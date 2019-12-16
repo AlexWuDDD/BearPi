@@ -1,0 +1,3 @@
+/Users/wualex/Documents/BearPi/UART1_DMA/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/wualex/Documents/BearPi/UART1_DMA/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/wualex/Documents/BearPi/UART1_DMA/cmake-build-debug/CMakeFiles/UART1_DMA.elf.dir
