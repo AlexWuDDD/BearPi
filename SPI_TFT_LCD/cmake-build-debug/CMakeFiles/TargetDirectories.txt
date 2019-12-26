@@ -1,0 +1,3 @@
+/Users/wualex/Documents/BearPi/SPI_TFT_LCD/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/wualex/Documents/BearPi/SPI_TFT_LCD/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/wualex/Documents/BearPi/SPI_TFT_LCD/cmake-build-debug/CMakeFiles/SPI_TFT_LCD.elf.dir
