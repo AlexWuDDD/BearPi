@@ -1,0 +1,3 @@
+/Users/wualex/Documents/BearPi/QSPIFlash/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/wualex/Documents/BearPi/QSPIFlash/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/wualex/Documents/BearPi/QSPIFlash/cmake-build-debug/CMakeFiles/QSPIFlash.elf.dir
