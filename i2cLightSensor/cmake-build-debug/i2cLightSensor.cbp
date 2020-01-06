@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="i2cLightSensor"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/wualex/Documents/BearPi/i2cLightSensor/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/i2cLightSensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/i2cLightSensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/i2cLightSensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/i2cLightSensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/wualex/Documents/BearPi/i2cLightSensor/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/i2cLightSensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/i2cLightSensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/i2cLightSensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/i2cLightSensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/wualex/Documents/BearPi/i2cLightSensor/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/i2cLightSensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/i2cLightSensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/i2cLightSensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/i2cLightSensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="i2cLightSensor.elf">
+				<Option output="/Users/wualex/Documents/BearPi/i2cLightSensor/cmake-build-debug/i2cLightSensor.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/BearPi/i2cLightSensor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__weak=__attribute__((weak))"/>
+					<Add option="-D__packed=__attribute__((__packed__))"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32L431xx"/>
+					<Add directory="/Users/wualex/Documents/BearPi/i2cLightSensor/Inc"/>
+					<Add directory="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/CMSIS/Device/ST/STM32L4xx/Include"/>
+					<Add directory="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/i2cLightSensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 i2cLightSensor.elf"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/i2cLightSensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/i2cLightSensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/i2cLightSensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="i2cLightSensor.elf/fast">
+				<Option output="/Users/wualex/Documents/BearPi/i2cLightSensor/cmake-build-debug/i2cLightSensor.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/BearPi/i2cLightSensor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__weak=__attribute__((weak))"/>
+					<Add option="-D__packed=__attribute__((__packed__))"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32L431xx"/>
+					<Add directory="/Users/wualex/Documents/BearPi/i2cLightSensor/Inc"/>
+					<Add directory="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/CMSIS/Device/ST/STM32L4xx/Include"/>
+					<Add directory="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/i2cLightSensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 i2cLightSensor.elf/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/i2cLightSensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/i2cLightSensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/i2cLightSensor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma_ex.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/STM32L431RCTx_FLASH.ld">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Src/BH1750.c">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Src/gpio.c">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Src/i2c.c">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Src/main.c">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Src/stm32l4xx_hal_msp.c">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Src/stm32l4xx_it.c">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Src/sys.c">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Src/syscalls.c">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Src/system_stm32l4xx.c">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/Src/usart.c">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/startup/startup_stm32l431xx.s">
+			<Option target="i2cLightSensor.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/i2cLightSensor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
