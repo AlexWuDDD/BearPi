@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="FreeRTOSDemo_1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FreeRTOSDemo_1.elf">
+				<Option output="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/cmake-build-debug/FreeRTOSDemo_1.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__weak=__attribute__((weak))"/>
+					<Add option="-D__packed=__attribute__((__packed__))"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32L431xx"/>
+					<Add directory="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Inc"/>
+					<Add directory="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/CMSIS/Device/ST/STM32L4xx/Include"/>
+					<Add directory="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 FreeRTOSDemo_1.elf"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FreeRTOSDemo_1.elf/fast">
+				<Option output="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/cmake-build-debug/FreeRTOSDemo_1.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__weak=__attribute__((weak))"/>
+					<Add option="-D__packed=__attribute__((__packed__))"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32L431xx"/>
+					<Add directory="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Inc"/>
+					<Add directory="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/CMSIS/Device/ST/STM32L4xx/Include"/>
+					<Add directory="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 FreeRTOSDemo_1.elf/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma_ex.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/STM32L431RCTx_FLASH.ld">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Src/freertos.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Src/gpio.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Src/main.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Src/stm32l4xx_hal_msp.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Src/stm32l4xx_hal_timebase_tim.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Src/stm32l4xx_it.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Src/sys.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Src/syscalls.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Src/system_stm32l4xx.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/Src/usart.c">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/startup/startup_stm32l431xx.s">
+			<Option target="FreeRTOSDemo_1.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/FreeRTOSDemo_1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
