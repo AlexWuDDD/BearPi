@@ -1,0 +1,11 @@
+//
+// Created by Wu Alex on 2020/2/14.
+//
+
+#ifndef NEWFREERTOS_FREERTOSCONFIG_H
+#define NEWFREERTOS_FREERTOSCONFIG_H
+
+#define configUSE_16_BIT_TICKS 0
+
+
+#endif //NEWFREERTOS_FREERTOSCONFIG_H
