@@ -123,6 +123,33 @@ newFreeRTOS.elf/fast:
 	$(MAKE) -f CMakeFiles/newFreeRTOS.elf.dir/build.make CMakeFiles/newFreeRTOS.elf.dir/build
 .PHONY : newFreeRTOS.elf/fast
 
+Alex/Source/test.obj: Alex/Source/test.c.obj
+
+.PHONY : Alex/Source/test.obj
+
+# target to build an object file
+Alex/Source/test.c.obj:
+	$(MAKE) -f CMakeFiles/newFreeRTOS.elf.dir/build.make CMakeFiles/newFreeRTOS.elf.dir/Alex/Source/test.c.obj
+.PHONY : Alex/Source/test.c.obj
+
+Alex/Source/test.i: Alex/Source/test.c.i
+
+.PHONY : Alex/Source/test.i
+
+# target to preprocess a source file
+Alex/Source/test.c.i:
+	$(MAKE) -f CMakeFiles/newFreeRTOS.elf.dir/build.make CMakeFiles/newFreeRTOS.elf.dir/Alex/Source/test.c.i
+.PHONY : Alex/Source/test.c.i
+
+Alex/Source/test.s: Alex/Source/test.c.s
+
+.PHONY : Alex/Source/test.s
+
+# target to generate assembly for a file
+Alex/Source/test.c.s:
+	$(MAKE) -f CMakeFiles/newFreeRTOS.elf.dir/build.make CMakeFiles/newFreeRTOS.elf.dir/Alex/Source/test.c.s
+.PHONY : Alex/Source/test.c.s
+
 Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.obj: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
 
 .PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.obj
@@ -897,6 +924,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... newFreeRTOS.elf"
+	@echo "... Alex/Source/test.obj"
+	@echo "... Alex/Source/test.i"
+	@echo "... Alex/Source/test.s"
 	@echo "... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.obj"
 	@echo "... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.i"
 	@echo "... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.s"

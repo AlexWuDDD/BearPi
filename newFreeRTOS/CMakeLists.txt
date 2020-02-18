@@ -43,7 +43,7 @@ include_directories(Inc Drivers/STM32L4xx_HAL_Driver/Inc Drivers/STM32L4xx_HAL_D
 
 add_definitions(-DREDIR_PPRINTF)
 file(GLOB_RECURSE MYSOURCE "Alex/Source/*.*" "FreeRTOS/Ports/*.*" "FreeRTOS/Source/*.*")
-include_directories(Alex/include)
+include_directories(Alex/include FreeRTOS/Source)
 
 
 add_executable(${PROJECT_NAME}.elf ${SOURCES} ${MYSOURCE} ${LINKER_SCRIPT})

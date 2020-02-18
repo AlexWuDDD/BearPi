@@ -35,7 +35,7 @@ int _write(int fd, char *ptr, int len)
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "test.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -100,7 +100,9 @@ int main(void)
   MX_GPIO_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
+  /* do some test */
   printf("from 0 to 1 FreeRTOS\n");
+  ListInsertTest();
 
   /* USER CODE END 2 */
 

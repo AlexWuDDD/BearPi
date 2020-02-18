@@ -3,6 +3,12 @@
 
 CMakeFiles/newFreeRTOS.elf.dir/startup/startup_stm32l431xx.s.obj
  /Users/wualex/Documents/BearPi/newFreeRTOS/startup/startup_stm32l431xx.s
+CMakeFiles/newFreeRTOS.elf.dir/Alex/Source/test.c.obj
+ ../Alex/include/test.h
+ ../FreeRTOS/Source/FreeRTOSConfig.h
+ ../FreeRTOS/Source/list.h
+ ../FreeRTOS/Source/portmacro.h
+ /Users/wualex/Documents/BearPi/newFreeRTOS/Alex/Source/test.c
 CMakeFiles/newFreeRTOS.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
  ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h
  ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h
@@ -687,6 +693,11 @@ CMakeFiles/newFreeRTOS.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_ua
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h
  ../Inc/stm32l4xx_hal_conf.h
  /Users/wualex/Documents/BearPi/newFreeRTOS/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c
+CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/list.c.obj
+ /Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Source/FreeRTOSConfig.h
+ /Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Source/list.c
+ /Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Source/list.h
+ /Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Source/portmacro.h
 CMakeFiles/newFreeRTOS.elf.dir/Src/gpio.c.obj
  ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h
  ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h
@@ -726,6 +737,7 @@ CMakeFiles/newFreeRTOS.elf.dir/Src/gpio.c.obj
  ../Inc/stm32l4xx_hal_conf.h
  /Users/wualex/Documents/BearPi/newFreeRTOS/Src/gpio.c
 CMakeFiles/newFreeRTOS.elf.dir/Src/main.c.obj
+ ../Alex/include/test.h
  ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h
  ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h
  ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h
@@ -759,6 +771,9 @@ CMakeFiles/newFreeRTOS.elf.dir/Src/main.c.obj
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h
+ ../FreeRTOS/Source/FreeRTOSConfig.h
+ ../FreeRTOS/Source/list.h
+ ../FreeRTOS/Source/portmacro.h
  ../Inc/gpio.h
  ../Inc/main.h
  ../Inc/stm32l4xx_hal_conf.h

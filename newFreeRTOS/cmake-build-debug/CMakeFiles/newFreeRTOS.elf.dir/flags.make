@@ -7,11 +7,11 @@ ASM_FLAGS = -g
 
 ASM_DEFINES = -DREDIR_PPRINTF -DSTM32L431xx -DUSE_HAL_DRIVER -D__packed="__attribute__((__packed__))" -D__weak="__attribute__((weak))"
 
-ASM_INCLUDES = -I/Users/wualex/Documents/BearPi/newFreeRTOS/Inc -I/Users/wualex/Documents/BearPi/newFreeRTOS/Drivers/STM32L4xx_HAL_Driver/Inc -I/Users/wualex/Documents/BearPi/newFreeRTOS/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I/Users/wualex/Documents/BearPi/newFreeRTOS/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I/Users/wualex/Documents/BearPi/newFreeRTOS/Drivers/CMSIS/Include -I/Users/wualex/Documents/BearPi/newFreeRTOS/Alex/include 
+ASM_INCLUDES = -I/Users/wualex/Documents/BearPi/newFreeRTOS/Inc -I/Users/wualex/Documents/BearPi/newFreeRTOS/Drivers/STM32L4xx_HAL_Driver/Inc -I/Users/wualex/Documents/BearPi/newFreeRTOS/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I/Users/wualex/Documents/BearPi/newFreeRTOS/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I/Users/wualex/Documents/BearPi/newFreeRTOS/Drivers/CMSIS/Include -I/Users/wualex/Documents/BearPi/newFreeRTOS/Alex/include -I/Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Source 
 
 C_FLAGS = -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99 -g  
 
 C_DEFINES = -DREDIR_PPRINTF -DSTM32L431xx -DUSE_HAL_DRIVER -D__packed="__attribute__((__packed__))" -D__weak="__attribute__((weak))"
 
-C_INCLUDES = -I/Users/wualex/Documents/BearPi/newFreeRTOS/Inc -I/Users/wualex/Documents/BearPi/newFreeRTOS/Drivers/STM32L4xx_HAL_Driver/Inc -I/Users/wualex/Documents/BearPi/newFreeRTOS/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I/Users/wualex/Documents/BearPi/newFreeRTOS/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I/Users/wualex/Documents/BearPi/newFreeRTOS/Drivers/CMSIS/Include -I/Users/wualex/Documents/BearPi/newFreeRTOS/Alex/include 
+C_INCLUDES = -I/Users/wualex/Documents/BearPi/newFreeRTOS/Inc -I/Users/wualex/Documents/BearPi/newFreeRTOS/Drivers/STM32L4xx_HAL_Driver/Inc -I/Users/wualex/Documents/BearPi/newFreeRTOS/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I/Users/wualex/Documents/BearPi/newFreeRTOS/Drivers/CMSIS/Device/ST/STM32L4xx/Include -I/Users/wualex/Documents/BearPi/newFreeRTOS/Drivers/CMSIS/Include -I/Users/wualex/Documents/BearPi/newFreeRTOS/Alex/include -I/Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Source 
 

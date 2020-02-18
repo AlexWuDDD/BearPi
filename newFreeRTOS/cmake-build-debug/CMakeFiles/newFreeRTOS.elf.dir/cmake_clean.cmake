@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/newFreeRTOS.elf.dir/Alex/Source/test.c.obj"
   "CMakeFiles/newFreeRTOS.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj"
   "CMakeFiles/newFreeRTOS.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj"
   "CMakeFiles/newFreeRTOS.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj"

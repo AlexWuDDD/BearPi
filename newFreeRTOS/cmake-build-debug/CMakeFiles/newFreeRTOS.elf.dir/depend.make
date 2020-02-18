@@ -3,6 +3,12 @@
 
 CMakeFiles/newFreeRTOS.elf.dir/startup/startup_stm32l431xx.s.obj: ../startup/startup_stm32l431xx.s
 
+CMakeFiles/newFreeRTOS.elf.dir/Alex/Source/test.c.obj: ../Alex/include/test.h
+CMakeFiles/newFreeRTOS.elf.dir/Alex/Source/test.c.obj: ../FreeRTOS/Source/FreeRTOSConfig.h
+CMakeFiles/newFreeRTOS.elf.dir/Alex/Source/test.c.obj: ../FreeRTOS/Source/list.h
+CMakeFiles/newFreeRTOS.elf.dir/Alex/Source/test.c.obj: ../FreeRTOS/Source/portmacro.h
+CMakeFiles/newFreeRTOS.elf.dir/Alex/Source/test.c.obj: ../Alex/Source/test.c
+
 CMakeFiles/newFreeRTOS.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj: ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h
 CMakeFiles/newFreeRTOS.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj: ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h
 CMakeFiles/newFreeRTOS.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj: ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h
@@ -687,6 +693,11 @@ CMakeFiles/newFreeRTOS.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_ua
 CMakeFiles/newFreeRTOS.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj: ../Inc/stm32l4xx_hal_conf.h
 CMakeFiles/newFreeRTOS.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c
 
+CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/list.c.obj: ../FreeRTOS/Source/FreeRTOSConfig.h
+CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/list.c.obj: ../FreeRTOS/Source/list.c
+CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/list.c.obj: ../FreeRTOS/Source/list.h
+CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/list.c.obj: ../FreeRTOS/Source/portmacro.h
+
 CMakeFiles/newFreeRTOS.elf.dir/Src/gpio.c.obj: ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h
 CMakeFiles/newFreeRTOS.elf.dir/Src/gpio.c.obj: ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h
 CMakeFiles/newFreeRTOS.elf.dir/Src/gpio.c.obj: ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h
@@ -725,6 +736,7 @@ CMakeFiles/newFreeRTOS.elf.dir/Src/gpio.c.obj: ../Inc/main.h
 CMakeFiles/newFreeRTOS.elf.dir/Src/gpio.c.obj: ../Inc/stm32l4xx_hal_conf.h
 CMakeFiles/newFreeRTOS.elf.dir/Src/gpio.c.obj: ../Src/gpio.c
 
+CMakeFiles/newFreeRTOS.elf.dir/Src/main.c.obj: ../Alex/include/test.h
 CMakeFiles/newFreeRTOS.elf.dir/Src/main.c.obj: ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h
 CMakeFiles/newFreeRTOS.elf.dir/Src/main.c.obj: ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h
 CMakeFiles/newFreeRTOS.elf.dir/Src/main.c.obj: ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h
@@ -758,6 +770,9 @@ CMakeFiles/newFreeRTOS.elf.dir/Src/main.c.obj: ../Drivers/STM32L4xx_HAL_Driver/I
 CMakeFiles/newFreeRTOS.elf.dir/Src/main.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h
 CMakeFiles/newFreeRTOS.elf.dir/Src/main.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h
 CMakeFiles/newFreeRTOS.elf.dir/Src/main.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h
+CMakeFiles/newFreeRTOS.elf.dir/Src/main.c.obj: ../FreeRTOS/Source/FreeRTOSConfig.h
+CMakeFiles/newFreeRTOS.elf.dir/Src/main.c.obj: ../FreeRTOS/Source/list.h
+CMakeFiles/newFreeRTOS.elf.dir/Src/main.c.obj: ../FreeRTOS/Source/portmacro.h
 CMakeFiles/newFreeRTOS.elf.dir/Src/main.c.obj: ../Inc/gpio.h
 CMakeFiles/newFreeRTOS.elf.dir/Src/main.c.obj: ../Inc/main.h
 CMakeFiles/newFreeRTOS.elf.dir/Src/main.c.obj: ../Inc/stm32l4xx_hal_conf.h
