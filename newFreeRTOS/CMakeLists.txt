@@ -46,6 +46,8 @@ file(GLOB_RECURSE MYSOURCE "Alex/Source/*.*" "FreeRTOS/Ports/*.*" "FreeRTOS/Sour
 include_directories(Alex/include FreeRTOS/Source)
 
 
+
+
 add_executable(${PROJECT_NAME}.elf ${SOURCES} ${MYSOURCE} ${LINKER_SCRIPT})
 
 set(CMAKE_EXE_LINKER_FLAGS

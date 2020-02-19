@@ -31,6 +31,44 @@ void ListInsertTest()
 
     struct xLIST_ITEM const * marker = listGET_END_MARKER(&List_Test);
     printf("head: %ld, end: %ld\n", marker->pxNext->xItemValue, marker->pxPrevious->xItemValue);
+}
 
+void delay( uint32_t count )
+{
+    for(;count!=0;count--);
+}
 
+void BareBoardVarChange()
+{
+    for(;;){
+        flag1=1;
+        delay(100);
+        flag1=0;
+        delay(100);
+
+        flag2=1;
+        delay(100);
+        flag2=0;
+        delay(100);
+    }
+}
+
+void Task1_Entry(void *p_arg)
+{
+    for(;;) {
+        flag1 = 1;
+        delay(100);
+        flag1 = 0;
+        delay(100);
+    }
+}
+
+void Task2_Entry(void *p_arg)
+{
+    for(;;) {
+        flag2 = 1;
+        delay(100);
+        flag2 = 0;
+        delay(100);
+    }
 }
