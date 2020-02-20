@@ -5,6 +5,7 @@
 #include "task.h"
 
 
+
 static void prvInitialiseNewTask(TaskHandle_t pxTaskCode,
         const char* const pcName,
         const uint32_t ulStackDepth,
@@ -68,4 +69,24 @@ TaskHandle_t xTaskCreateStatic(
     }
     /* 返回任务句柄， 如果任务创建成功， 此时xReturn应该指向任务控制块 */
     return xReturn;
+}
+
+void prvInitialiseTaskLists(void)
+{
+    UBaseType_t  uxPriority;
+    for(uxPriority = (UBaseType_t)0U; uxPriority < (UBaseType_t)configMAX_PRIORITIES; ++ uxPriority){
+        vListInitialise(&(pxReadyTasksLists[uxPriority]));
+    }
+}
+
+void vTaskStartScheduler(void)
+{
+    /*手动指定第一个运行的任务*/
+    pxCurrent = &TASK1TCB;
+
+    /*启动调度器*/
+    if(xPortStartScheduler() != pdFalse){
+        /*调取器启动成功，则不会返回，即不会来到这里*/
+    }
+
 }

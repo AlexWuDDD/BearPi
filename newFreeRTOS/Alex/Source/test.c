@@ -72,3 +72,23 @@ void Task2_Entry(void *p_arg)
         delay(100);
     }
 }
+
+void taskTest1()
+{
+    /* 初始化与任务相关的列表*/
+    prvInitialiseTaskLists();
+
+    TaskHandle_t Task1_Handle = xTaskCreateStatic((TaskFunction_t)Task1_Entry, (char*)"Task1",
+            (uint32_t)TASK1_STACK_SIZE,
+            (void*)NULL, (StackType_t*)Task1Stack, (TCB_t*)&Task1TCB);
+
+    /*将任务添加到就绪列表*/
+    vListInsertEnd(&(pxReadyTasksLists[1]), &(((TCB_t*)&Task1TCB)->xStateListItem));
+
+    TaskHandle_t Task2_Handle = xTaskCreateStatic((TaskFunction_t)Task2_Entry, (char*)"Task2",
+            (uint32_t)TASK2_STACK_SIZE,
+            (void*)NULL, (StackType_t*)Task2Stack, (TCB_t*)&Task2TCB);
+
+    /*将任务添加到就绪列表*/
+    vListInsertEnd(&(pxReadyTasksLists[2]), &(((TCB_t*)&Task2TCB)->xStateListItem))
+}

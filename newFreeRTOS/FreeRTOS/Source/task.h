@@ -40,7 +40,17 @@ TaskHandle_t xTaskCreateStatic(
         TCB_t * const pxTaskBuffer);        //任务控制块指针
 #endif
 
+/*任务就绪列表*/
+List_t pxReadyTasksLists[configMAX_PRIORITIES];
 
+/*就绪列表初始化*/
+void prvInitialiseTaskLists(void);
+
+/*启动调度器*/
+void vTaskStartScheduler(void);
+
+/*全局指针，用于指向当前正在运行或者即将要运行的任务的任务控制块*/
+TCB_t *pxCurrent;
 
 
 #endif //NEWFREERTOS_TASK_H

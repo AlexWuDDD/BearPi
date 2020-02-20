@@ -29,6 +29,11 @@ void Task2_Entry(void *p_arg);
 TCB_t Task1TCB;
 TCB_t Task2TCB;
 
+//将任务插入到就绪列表
+void taskTest1();
+
+
+
 
 
 
