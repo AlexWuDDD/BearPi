@@ -3,7 +3,8 @@
 //
 
 #include "task.h"
-
+#include "test.h"
+#include "port.h"
 
 
 static void prvInitialiseNewTask(TaskHandle_t pxTaskCode,
@@ -14,7 +15,7 @@ static void prvInitialiseNewTask(TaskHandle_t pxTaskCode,
         TCB_t *pxNewTCB )
 {
     StackType_t *pxTopOfStack;
-    UBaseType_t X;
+    UBaseType_t x;
 
     /* 获取栈顶地址 */
     pxTopOfStack = pxNewTCB->pxStack + (ulStackDepth - (uint32_t)1);
@@ -82,7 +83,7 @@ void prvInitialiseTaskLists(void)
 void vTaskStartScheduler(void)
 {
     /*手动指定第一个运行的任务*/
-    pxCurrent = &TASK1TCB;
+    pxCurrent = &Task1TCB;
 
     /*启动调度器*/
     if(xPortStartScheduler() != pdFalse){

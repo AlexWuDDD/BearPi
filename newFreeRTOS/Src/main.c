@@ -22,6 +22,7 @@
 #include "main.h"
 #include "usart.h"
 #include "gpio.h"
+#include "task.h"
 
 #ifdef REDIR_PPRINTF
 #include <stdio.h>
@@ -32,6 +33,17 @@ int _write(int fd, char *ptr, int len)
 }
 
 #endif
+uint32_t flag1;
+uint32_t flag2;
+
+StackType_t Task1Stack[TASK1_STACK_SIZE];
+StackType_t Task2Stack[TASK2_STACK_SIZE];
+
+TCB_t Task1TCB;
+TCB_t Task2TCB;
+List_t pxReadyTasksLists[configMAX_PRIORITIES];
+TCB_t *pxCurrent;
+
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -40,6 +52,7 @@ int _write(int fd, char *ptr, int len)
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
+
 
 /* USER CODE END PTD */
 

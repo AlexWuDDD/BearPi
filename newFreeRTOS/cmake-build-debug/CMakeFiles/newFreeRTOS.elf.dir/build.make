@@ -426,9 +426,22 @@ CMakeFiles/newFreeRTOS.elf.dir/Alex/Source/test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/newFreeRTOS.elf.dir/Alex/Source/test.c.s"
 	/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wualex/Documents/BearPi/newFreeRTOS/Alex/Source/test.c -o CMakeFiles/newFreeRTOS.elf.dir/Alex/Source/test.c.s
 
+CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Ports/port.c.obj: CMakeFiles/newFreeRTOS.elf.dir/flags.make
+CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Ports/port.c.obj: ../FreeRTOS/Ports/port.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Ports/port.c.obj"
+	/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Ports/port.c.obj   -c /Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Ports/port.c
+
+CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Ports/port.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Ports/port.c.i"
+	/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Ports/port.c > CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Ports/port.c.i
+
+CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Ports/port.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Ports/port.c.s"
+	/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Ports/port.c -o CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Ports/port.c.s
+
 CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/list.c.obj: CMakeFiles/newFreeRTOS.elf.dir/flags.make
 CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/list.c.obj: ../FreeRTOS/Source/list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/list.c.obj"
 	/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/list.c.obj   -c /Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Source/list.c
 
 CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/list.c.i: cmake_force
@@ -438,6 +451,19 @@ CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/list.c.i: cmake_force
 CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/list.c.s"
 	/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Source/list.c -o CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/list.c.s
+
+CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/task.c.obj: CMakeFiles/newFreeRTOS.elf.dir/flags.make
+CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/task.c.obj: ../FreeRTOS/Source/task.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/task.c.obj"
+	/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/task.c.obj   -c /Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Source/task.c
+
+CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/task.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/task.c.i"
+	/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Source/task.c > CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/task.c.i
+
+CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/task.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/task.c.s"
+	/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Source/task.c -o CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/task.c.s
 
 # Object files for target newFreeRTOS.elf
 newFreeRTOS_elf_OBJECTS = \
@@ -470,7 +496,9 @@ newFreeRTOS_elf_OBJECTS = \
 "CMakeFiles/newFreeRTOS.elf.dir/Src/usart.c.obj" \
 "CMakeFiles/newFreeRTOS.elf.dir/startup/startup_stm32l431xx.s.obj" \
 "CMakeFiles/newFreeRTOS.elf.dir/Alex/Source/test.c.obj" \
-"CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/list.c.obj"
+"CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Ports/port.c.obj" \
+"CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/list.c.obj" \
+"CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/task.c.obj"
 
 # External object files for target newFreeRTOS.elf
 newFreeRTOS_elf_EXTERNAL_OBJECTS =
@@ -504,10 +532,12 @@ newFreeRTOS.elf: CMakeFiles/newFreeRTOS.elf.dir/Src/system_stm32l4xx.c.obj
 newFreeRTOS.elf: CMakeFiles/newFreeRTOS.elf.dir/Src/usart.c.obj
 newFreeRTOS.elf: CMakeFiles/newFreeRTOS.elf.dir/startup/startup_stm32l431xx.s.obj
 newFreeRTOS.elf: CMakeFiles/newFreeRTOS.elf.dir/Alex/Source/test.c.obj
+newFreeRTOS.elf: CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Ports/port.c.obj
 newFreeRTOS.elf: CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/list.c.obj
+newFreeRTOS.elf: CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/task.c.obj
 newFreeRTOS.elf: CMakeFiles/newFreeRTOS.elf.dir/build.make
 newFreeRTOS.elf: CMakeFiles/newFreeRTOS.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking C executable newFreeRTOS.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking C executable newFreeRTOS.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/newFreeRTOS.elf.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/newFreeRTOS.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/newFreeRTOS.bin"

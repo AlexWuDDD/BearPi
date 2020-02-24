@@ -1,8 +1,7 @@
 //
 // Created by Wu Alex on 2020/2/19.
 //
-#define portINITIAL_XPSR (0x01000000)
-#define portSTART_ADDRESS_MASK ((StackType_t)0xfffffffeUL)
+#include "port.h"
 
 static void prvTaskExitError(void)
 {
@@ -25,5 +24,9 @@ StackType_t *pxPortInitialiseStack(StackType_t *pxTopOfStack, TaskFunction_t pxC
     /*异常发生时，手动加载到CPU寄存器的内容*/
     pxTopOfStack -= 8;
     return pxTopOfStack;
+}
+
+bool xPortStartScheduler(){
+    return true;
 }
 

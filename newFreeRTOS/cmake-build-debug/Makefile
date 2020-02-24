@@ -663,6 +663,33 @@ Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.s:
 	$(MAKE) -f CMakeFiles/newFreeRTOS.elf.dir/build.make CMakeFiles/newFreeRTOS.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.s
 .PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.s
 
+FreeRTOS/Ports/port.obj: FreeRTOS/Ports/port.c.obj
+
+.PHONY : FreeRTOS/Ports/port.obj
+
+# target to build an object file
+FreeRTOS/Ports/port.c.obj:
+	$(MAKE) -f CMakeFiles/newFreeRTOS.elf.dir/build.make CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Ports/port.c.obj
+.PHONY : FreeRTOS/Ports/port.c.obj
+
+FreeRTOS/Ports/port.i: FreeRTOS/Ports/port.c.i
+
+.PHONY : FreeRTOS/Ports/port.i
+
+# target to preprocess a source file
+FreeRTOS/Ports/port.c.i:
+	$(MAKE) -f CMakeFiles/newFreeRTOS.elf.dir/build.make CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Ports/port.c.i
+.PHONY : FreeRTOS/Ports/port.c.i
+
+FreeRTOS/Ports/port.s: FreeRTOS/Ports/port.c.s
+
+.PHONY : FreeRTOS/Ports/port.s
+
+# target to generate assembly for a file
+FreeRTOS/Ports/port.c.s:
+	$(MAKE) -f CMakeFiles/newFreeRTOS.elf.dir/build.make CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Ports/port.c.s
+.PHONY : FreeRTOS/Ports/port.c.s
+
 FreeRTOS/Source/list.obj: FreeRTOS/Source/list.c.obj
 
 .PHONY : FreeRTOS/Source/list.obj
@@ -689,6 +716,33 @@ FreeRTOS/Source/list.s: FreeRTOS/Source/list.c.s
 FreeRTOS/Source/list.c.s:
 	$(MAKE) -f CMakeFiles/newFreeRTOS.elf.dir/build.make CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/list.c.s
 .PHONY : FreeRTOS/Source/list.c.s
+
+FreeRTOS/Source/task.obj: FreeRTOS/Source/task.c.obj
+
+.PHONY : FreeRTOS/Source/task.obj
+
+# target to build an object file
+FreeRTOS/Source/task.c.obj:
+	$(MAKE) -f CMakeFiles/newFreeRTOS.elf.dir/build.make CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/task.c.obj
+.PHONY : FreeRTOS/Source/task.c.obj
+
+FreeRTOS/Source/task.i: FreeRTOS/Source/task.c.i
+
+.PHONY : FreeRTOS/Source/task.i
+
+# target to preprocess a source file
+FreeRTOS/Source/task.c.i:
+	$(MAKE) -f CMakeFiles/newFreeRTOS.elf.dir/build.make CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/task.c.i
+.PHONY : FreeRTOS/Source/task.c.i
+
+FreeRTOS/Source/task.s: FreeRTOS/Source/task.c.s
+
+.PHONY : FreeRTOS/Source/task.s
+
+# target to generate assembly for a file
+FreeRTOS/Source/task.c.s:
+	$(MAKE) -f CMakeFiles/newFreeRTOS.elf.dir/build.make CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/task.c.s
+.PHONY : FreeRTOS/Source/task.c.s
 
 Src/gpio.obj: Src/gpio.c.obj
 
@@ -984,9 +1038,15 @@ help:
 	@echo "... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.obj"
 	@echo "... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.i"
 	@echo "... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.s"
+	@echo "... FreeRTOS/Ports/port.obj"
+	@echo "... FreeRTOS/Ports/port.i"
+	@echo "... FreeRTOS/Ports/port.s"
 	@echo "... FreeRTOS/Source/list.obj"
 	@echo "... FreeRTOS/Source/list.i"
 	@echo "... FreeRTOS/Source/list.s"
+	@echo "... FreeRTOS/Source/task.obj"
+	@echo "... FreeRTOS/Source/task.i"
+	@echo "... FreeRTOS/Source/task.s"
 	@echo "... Src/gpio.obj"
 	@echo "... Src/gpio.i"
 	@echo "... Src/gpio.s"

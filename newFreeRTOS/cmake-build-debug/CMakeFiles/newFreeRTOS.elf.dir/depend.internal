@@ -8,6 +8,8 @@ CMakeFiles/newFreeRTOS.elf.dir/Alex/Source/test.c.obj
  ../FreeRTOS/Source/FreeRTOSConfig.h
  ../FreeRTOS/Source/list.h
  ../FreeRTOS/Source/portmacro.h
+ ../FreeRTOS/Source/projdef.h
+ ../FreeRTOS/Source/task.h
  /Users/wualex/Documents/BearPi/newFreeRTOS/Alex/Source/test.c
 CMakeFiles/newFreeRTOS.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
  ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h
@@ -693,11 +695,28 @@ CMakeFiles/newFreeRTOS.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_ua
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h
  ../Inc/stm32l4xx_hal_conf.h
  /Users/wualex/Documents/BearPi/newFreeRTOS/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c
+CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Ports/port.c.obj
+ ../FreeRTOS/Source/FreeRTOSConfig.h
+ ../FreeRTOS/Source/list.h
+ ../FreeRTOS/Source/portmacro.h
+ ../FreeRTOS/Source/projdef.h
+ ../FreeRTOS/Source/task.h
+ /Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Ports/port.c
+ /Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Ports/port.h
 CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/list.c.obj
  /Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Source/FreeRTOSConfig.h
  /Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Source/list.c
  /Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Source/list.h
  /Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Source/portmacro.h
+CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/task.c.obj
+ ../Alex/include/test.h
+ ../FreeRTOS/Ports/port.h
+ /Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Source/FreeRTOSConfig.h
+ /Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Source/list.h
+ /Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Source/portmacro.h
+ /Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Source/projdef.h
+ /Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Source/task.c
+ /Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Source/task.h
 CMakeFiles/newFreeRTOS.elf.dir/Src/gpio.c.obj
  ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l431xx.h
  ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h
@@ -774,6 +793,8 @@ CMakeFiles/newFreeRTOS.elf.dir/Src/main.c.obj
  ../FreeRTOS/Source/FreeRTOSConfig.h
  ../FreeRTOS/Source/list.h
  ../FreeRTOS/Source/portmacro.h
+ ../FreeRTOS/Source/projdef.h
+ ../FreeRTOS/Source/task.h
  ../Inc/gpio.h
  ../Inc/main.h
  ../Inc/stm32l4xx_hal_conf.h

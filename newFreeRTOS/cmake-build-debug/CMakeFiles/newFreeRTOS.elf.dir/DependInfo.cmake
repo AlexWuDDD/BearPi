@@ -27,6 +27,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../Drivers/CMSIS/Include"
   "../Alex/include"
   "../FreeRTOS/Source"
+  "../FreeRTOS/Ports"
   )
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/wualex/Documents/BearPi/newFreeRTOS/Alex/Source/test.c" "/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/CMakeFiles/newFreeRTOS.elf.dir/Alex/Source/test.c.obj"
@@ -49,7 +50,9 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/wualex/Documents/BearPi/newFreeRTOS/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c" "/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/CMakeFiles/newFreeRTOS.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj"
   "/Users/wualex/Documents/BearPi/newFreeRTOS/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c" "/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/CMakeFiles/newFreeRTOS.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj"
   "/Users/wualex/Documents/BearPi/newFreeRTOS/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c" "/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/CMakeFiles/newFreeRTOS.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj"
+  "/Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Ports/port.c" "/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Ports/port.c.obj"
   "/Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Source/list.c" "/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/list.c.obj"
+  "/Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Source/task.c" "/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/CMakeFiles/newFreeRTOS.elf.dir/FreeRTOS/Source/task.c.obj"
   "/Users/wualex/Documents/BearPi/newFreeRTOS/Src/gpio.c" "/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/CMakeFiles/newFreeRTOS.elf.dir/Src/gpio.c.obj"
   "/Users/wualex/Documents/BearPi/newFreeRTOS/Src/main.c" "/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/CMakeFiles/newFreeRTOS.elf.dir/Src/main.c.obj"
   "/Users/wualex/Documents/BearPi/newFreeRTOS/Src/stm32l4xx_hal_msp.c" "/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/CMakeFiles/newFreeRTOS.elf.dir/Src/stm32l4xx_hal_msp.c.obj"
@@ -79,6 +82,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../Drivers/CMSIS/Include"
   "../Alex/include"
   "../FreeRTOS/Source"
+  "../FreeRTOS/Ports"
   )
 
 # Targets to which this target links.

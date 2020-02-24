@@ -24,10 +24,10 @@ typedef void* TaskHandle_t;
 
 //多任务系统中，有多少个任务就需要定义多少个任务栈
 #define TASK1_STACK_SIZE    128
-StackType_t Task1Stack[TASK1_STACK_SIZE];
+extern StackType_t Task1Stack[TASK1_STACK_SIZE];
 
 #define TASK2_STACK_SIZE 128
-StackType_t Task2Stack[TASK2_STACK_SIZE];
+extern StackType_t Task2Stack[TASK2_STACK_SIZE];
 
 /* 实现任务创建函数 */
 #if( configSUPPORT_STATIC_ALLOCATION == 1 )
@@ -41,7 +41,7 @@ TaskHandle_t xTaskCreateStatic(
 #endif
 
 /*任务就绪列表*/
-List_t pxReadyTasksLists[configMAX_PRIORITIES];
+extern List_t pxReadyTasksLists[configMAX_PRIORITIES];
 
 /*就绪列表初始化*/
 void prvInitialiseTaskLists(void);
@@ -50,7 +50,7 @@ void prvInitialiseTaskLists(void);
 void vTaskStartScheduler(void);
 
 /*全局指针，用于指向当前正在运行或者即将要运行的任务的任务控制块*/
-TCB_t *pxCurrent;
+extern TCB_t *pxCurrent;
 
 
 #endif //NEWFREERTOS_TASK_H

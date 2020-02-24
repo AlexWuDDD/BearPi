@@ -11,30 +11,30 @@
 				<Option working_dir="/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="newFreeRTOS.elf">
@@ -56,6 +56,7 @@
 					<Add directory="/Users/wualex/Documents/BearPi/newFreeRTOS/Drivers/CMSIS/Include"/>
 					<Add directory="/Users/wualex/Documents/BearPi/newFreeRTOS/Alex/include"/>
 					<Add directory="/Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Source"/>
+					<Add directory="/Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Ports"/>
 					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
 					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
 					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"/>
@@ -64,10 +65,10 @@
 					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 newFreeRTOS.elf"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 newFreeRTOS.elf"/>
+					<CompileFile command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="newFreeRTOS.elf/fast">
@@ -89,6 +90,7 @@
 					<Add directory="/Users/wualex/Documents/BearPi/newFreeRTOS/Drivers/CMSIS/Include"/>
 					<Add directory="/Users/wualex/Documents/BearPi/newFreeRTOS/Alex/include"/>
 					<Add directory="/Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Source"/>
+					<Add directory="/Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Ports"/>
 					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
 					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
 					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"/>
@@ -97,10 +99,10 @@
 					<Add directory="/Users/wualex/Documents/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 newFreeRTOS.elf/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 newFreeRTOS.elf/fast"/>
+					<CompileFile command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/BearPi/newFreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
@@ -302,6 +304,9 @@
 		<Unit filename="/Users/wualex/Documents/BearPi/newFreeRTOS/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c">
 			<Option target="newFreeRTOS.elf"/>
 		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Ports/port.c">
+			<Option target="newFreeRTOS.elf"/>
+		</Unit>
 		<Unit filename="/Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Source/FreeRTOSConfig.h">
 			<Option target="newFreeRTOS.elf"/>
 		</Unit>
@@ -312,6 +317,15 @@
 			<Option target="newFreeRTOS.elf"/>
 		</Unit>
 		<Unit filename="/Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Source/portmacro.h">
+			<Option target="newFreeRTOS.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Source/projdef.h">
+			<Option target="newFreeRTOS.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Source/task.c">
+			<Option target="newFreeRTOS.elf"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/BearPi/newFreeRTOS/FreeRTOS/Source/task.h">
 			<Option target="newFreeRTOS.elf"/>
 		</Unit>
 		<Unit filename="/Users/wualex/Documents/BearPi/newFreeRTOS/STM32L431RCTx_FLASH.ld">

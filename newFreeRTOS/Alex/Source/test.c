@@ -90,5 +90,5 @@ void taskTest1()
             (void*)NULL, (StackType_t*)Task2Stack, (TCB_t*)&Task2TCB);
 
     /*将任务添加到就绪列表*/
-    vListInsertEnd(&(pxReadyTasksLists[2]), &(((TCB_t*)&Task2TCB)->xStateListItem))
+    vListInsertEnd(&(pxReadyTasksLists[2]), &(((TCB_t*)&Task2TCB)->xStateListItem));
 }
